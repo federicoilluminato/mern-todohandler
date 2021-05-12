@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Row, Col, Button} from 'react-bootstrap'
 import routes from '../helpers/routes'
 import {Link} from 'react-router-dom'
+import Image from '../img/task-manager.svg'
 
 
 const HomePage = () => {
@@ -26,7 +27,7 @@ const HomePage = () => {
                 <Col>
                     <img
                         className="img-fluid"
-                        src="/img/task-manager.svg"
+                        src={Image}
                         alt="gestor-de-tareas"
                     />
                     <p>Gestiona tu tiempo, mejora tu productividad</p>
