@@ -20,7 +20,7 @@ const HomePage = () => {
                     <div>
                         <Link to={routes.login}>Ingresa</Link> o 
                         <Button as={Link} to={routes.register}
-                        className="ml-3"
+                        className="ml-2"
                         >Crea una cuenta</Button>
                     </div>
                 </Col>

@@ -10,7 +10,6 @@ const PrivateRoute = ({hasRole: role, ...rest}) => {
     const { hasRole, isLogged } = useAuth();
 
     if(role && !hasRole(role)) return <Redirect to={routes.home} />
-
     if(!isLogged()) return <Redirect to={{ pathname: routes.login, state: { from: location } }} />
 
     return (

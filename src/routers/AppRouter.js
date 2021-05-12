@@ -8,7 +8,7 @@ import NotFoundPage from '../pages/NotFoundPage';
 import ProjectPage from '../pages/ProjectPage';
 import ProjectsPage from '../pages/ProjectsPage';
 import RegisterPage from '../pages/RegisterPage';
-import Layout from '../components/layouts/Layout';
+// import Layout from '../components/layouts/Layout';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 import roles from '../helpers/roles';

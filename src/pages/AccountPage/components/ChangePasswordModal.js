@@ -3,7 +3,6 @@ import {Modal,Form,Alert,Button} from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import changePasswordResolver from '../../../validations/changePasswordResolver';
 
-// VOY POR VIDEO - MERN STACK 23 https://www.youtube.com/watch?v=iiFcpbDOxWA&list=PLdcAPGja1uw0LSn7kx-Plj76x8UZZLgz9&index=25&ab_channel=LuisCabreraLuisCabrera
 
 
 export default function ChangePasswordModal({isOpen, close}) {
@@ -20,7 +19,7 @@ export default function ChangePasswordModal({isOpen, close}) {
         if(!isOpen){
             reset()
         }
-    },[isOpen])
+    },[isOpen, reset])
 
     return (
         <Modal show={isOpen} onHide={close}>
