@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mern-todohandler/static/css/main.90c2993d.chunk.css",
-    "main.js": "/mern-todohandler/static/js/main.a0cf8d95.chunk.js",
-    "main.js.map": "/mern-todohandler/static/js/main.a0cf8d95.chunk.js.map",
+    "main.js": "/mern-todohandler/static/js/main.06bcbf89.chunk.js",
+    "main.js.map": "/mern-todohandler/static/js/main.06bcbf89.chunk.js.map",
     "runtime-main.js": "/mern-todohandler/static/js/runtime-main.65966aac.js",
     "runtime-main.js.map": "/mern-todohandler/static/js/runtime-main.65966aac.js.map",
     "static/css/2.800be05e.chunk.css": "/mern-todohandler/static/css/2.800be05e.chunk.css",
@@ -12,6 +12,8 @@
     "static/css/2.800be05e.chunk.css.map": "/mern-todohandler/static/css/2.800be05e.chunk.css.map",
     "static/css/main.90c2993d.chunk.css.map": "/mern-todohandler/static/css/main.90c2993d.chunk.css.map",
     "static/js/2.76c226fa.chunk.js.LICENSE.txt": "/mern-todohandler/static/js/2.76c226fa.chunk.js.LICENSE.txt",
+    "static/media/404-not-found.6d653eb3.svg": "/mern-todohandler/static/media/404-not-found.6d653eb3.svg",
+    "static/media/male_avatar.3503d11c.svg": "/mern-todohandler/static/media/male_avatar.3503d11c.svg",
     "static/media/task-manager.a1cf36da.svg": "/mern-todohandler/static/media/task-manager.a1cf36da.svg"
   },
   "entrypoints": [
@@ -19,6 +21,6 @@
     "static/css/2.800be05e.chunk.css",
     "static/js/2.76c226fa.chunk.js",
     "static/css/main.90c2993d.chunk.css",
-    "static/js/main.a0cf8d95.chunk.js"
+    "static/js/main.06bcbf89.chunk.js"
   ]
 }
