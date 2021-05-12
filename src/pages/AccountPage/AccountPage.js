@@ -4,6 +4,7 @@ import useAuth from '../../auth/useAuth';
 import useModal from '../../hooks/useModal';
 import ChangePasswordModal from './components/ChangePasswordModal';
 import DeleteModal from './components/DeleteModal';
+import Image from '../../img/male_avatar.svg'
 
 
 const AccountPage = () => {
@@ -19,7 +20,7 @@ const AccountPage = () => {
             <Row className="mt-4">
                 <Col xs={12} className="text-center">
                     <img
-                        src="/img/male_avatar.svg"
+                        src={Image}
                         alt="profile"
                         style={{
                             width: '200px',
