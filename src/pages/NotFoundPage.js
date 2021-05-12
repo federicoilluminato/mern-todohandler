@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import routes from '../helpers/routes';
-import Image from '../img/404-not-found.svg'
+import Image404 from '../img/404-not-found.svg'
 
 const NotFoundPage = () => {
     return (
@@ -11,7 +11,7 @@ const NotFoundPage = () => {
                 <Col md={{ span: 6, offset: 3}} className="text-center">
                     <img
                         style={{width : '100%'}} 
-                        src={Image}
+                        src={Image404}
                         alt="error 404"
                     />
                     <h2 className="mt-3">¿Te perdiste?</h2>
